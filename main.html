@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Transcription</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">  
+</head>
+<body>
+    <h1>Сторінка для ознайомлення з кухоними приладдями</h1>
+    <h2>Для цього натисніть на приладдя, яке вас цікавить, у навигаційній колонці зліва</h2>
+    <br>
+    <br>
+    <p>Пропонуємо вам пройти опитування, котре допоможе нам в майбутньому покращити сайт.</p>
+    <br>
+    <p>Яке приладдя ви використовуєте найчастіше?</p>
+    <div>
+        <input type="radio" name="often" value="frying_pan">Сковорода<br>
+        <input type="radio" name="often" value="pot">Каструля<br>
+    </div>
+    <br>
+    <p>Які приладдя у вас є на кухні?</p>
+    <div>
+        <input type="checkbox" name="have" value="frying_pan">Сковорода<br>
+        <input type="checkbox" name="have" value="pot">Каструля<br>
+    </div>
+    <br>
+    <button class="button-sendAnswr" onclick="submitForm()">Надати відповіді</button>
+    <script>
+        let submitForm = () => {
+            alert("Дякуємо за надані відповіді")
+        }
+    </script>
+</body>
+</html>

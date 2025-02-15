@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 95vh;
+    height: 95vh;
+}
+
+.header-center{
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+}
+
+
+body{
+    background-color: #2F4474;
+}

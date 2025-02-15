@@ -1,0 +1,61 @@
+
+
+body{
+    background-color: #617BB6;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+p{
+    padding: 0 20%;
+}
+
+.similar-goods {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.swiper-background-container{
+    padding: 0 auto;
+    background-color: #556ca0;
+    margin: 0;
+    width: 100%;
+}
+
+.swiper-slide{
+    text-align: center;
+}
+
+.swiper-slide img {
+    width: 40vw;
+    height: 20vw;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.brazier img{
+
+    width: 30vw;
+    height: 20vw;
+}
+
+.swiper-slide img:hover {
+    transform: scale(1.05);
+}
+
+.button-sendAnswr{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-size:15px;
+    background-color: #384c7c;
+}
